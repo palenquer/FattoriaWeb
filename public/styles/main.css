@@ -1,0 +1,52 @@
+:root {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    color: #232323;
+}
+header {
+    display: flex;
+    align-items: center;
+
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+    background-color: white;
+    position: fixed;
+
+    width: 100vw;
+    padding: 1rem;
+}
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer {
+    overflow-y: hidden;
+    width: 100vw;
+    color: white;
+}
+footer h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+footer p {
+    font-size: 1.6rem;
+    font-weight: 100;
+}
